@@ -30,23 +30,3 @@ NightFury-CSS-Art/
 ## ▶️ Run locally
 
 Just open `index.html` in any browser — no build step, no dependencies.
-
-## 🚀 Deploy on GitHub Pages
-
-1. Create a new GitHub repository, e.g. `NightFury-CSS-Art`.
-2. Push these files to the repo:
-   ```bash
-   git init
-   git add index.html style.css README.md
-   git commit -m "Toothless pure CSS art"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/NightFury-CSS-Art.git
-   git push -u origin main
-   ```
-3. In the repo, go to **Settings → Pages**.
-4. Under **Build and deployment → Source**, select **Deploy from a branch**.
-5. Choose branch `main` and folder `/ (root)`, then **Save**.
-6. After a minute, your site will be live at:
-   ```
-   https://<your-username>.github.io/NightFury-CSS-Art/
-   ```
